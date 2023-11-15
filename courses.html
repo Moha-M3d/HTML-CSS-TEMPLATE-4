@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Courses </title>
+    <!-- Font Awesome Free Icons-->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- my custom css framework file -->
+    <link rel="stylesheet" href="./assets/css/my-framework.css">
+    <!-- the main css file -->
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <!-- link the google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page bg-primary">
+        <nav class="main-nav position-fixed bg-white p-20">
+            <h2 class="logo position-relative font-size-20 text-center p-bottom-20 p-inline-10 m-inline-auto m-bottom-30">
+                <span class="desktop hide-on-mobile">Dahman</span>
+                <span class="mobile hide-on-desktop">DH</span>
+            </h2>
+            <ul>
+                <li>
+                    <a class="nav-link d-flex align-center p-10 rounded-4" href="./index.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-chart-bar fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./settings.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-gear fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./profile.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-user fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./projects.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-diagram-project fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Porjects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active nav-link nav-link d-flex align-center p-10 rounded-4" href="./courses.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-graduation-cap fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./friends.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-circle-user fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./files.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-file fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./plans.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-credit-card fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content courses">
+            <header class="main-content-header bg-white p-15 d-flex justify-between">
+                <div class="search-engine d-flex align-center p-10">
+                    <i class="search-icon font-size-14 fas fa-search"></i>
+                    <input class="search-field border-0" type="text" placeholder="Type A keyword">
+                </div>
+                <div class="profile d-flex align-center">
+                    <i class="notification-bell far fa-bell position-relative"></i>
+                    <img class="profile-photo rounded-circle" src="./assets/images/profile-photo.JPG" alt="profile photo">
+                </div>
+            </header>
+            <div class="content p-20">
+                <h1 class="position-relative text-black font-size-30 p-bottom-10 m-bottom-40">Courses</h1>
+                <div class="container">
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-01.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Mastering Web Design</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture 
+                            </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">950</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">165</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-02.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Data Structure And Algorithms</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering  
+                            </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">1150</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">210</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-03.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Responsive Web Design</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints                             </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">650</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-04.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-04.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Mastering Python</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life                             <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">950</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">250</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-05.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-05.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">PHP Examples</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases                             <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">850</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-01.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Mastering Web Design</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Master The Art Of Web Designing And Mocking, Prototyping And Creating Web Design Architecture 
+                            </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">950</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">165</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-02.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Data Structure And Algorithms</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Master The Art Of Data Strcuture And Famous Algorithms Like Sorting, Dividing And Conquering  
+                            </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">1150</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">210</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-03.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-01.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Responsive Web Design</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Mastering Responsive Web Design And Media Queries And Know Everything About Breakpoints                             </p>
+                            <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">650</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-04.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-04.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">Mastering Python</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                Mastering Python To Prepare For Data Science And AI And Automating Things in Your Life                             <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">950</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">250</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex flex-column bg-white rounded-8 overflow-h">
+                        <div class="image-container">
+                            <img src="./assets/images/course-05.jpg" alt="">
+                            <img class="teacher-photo" src="./assets/images/team-05.png" alt="">
+                        </div>
+                        <div class="flex-1 d-flex flex-column box-content">
+                            <h4 class="m-bottom-20">PHP Examples</h4>
+                            <p class="font-size-15 text-gray lh-2 m-bottom-30">
+                                PHP Tutorials And Examples And Practice On Web Application And Connecting With Databases                             <div class="course-info  d-flex justify-between p-top-15 border-top border-color-light">
+                                <div class="btn btn-primary">Course Info</div>
+                                <div class="learners">
+                                    <i class="font-size-13 text-gray far fa-user"></i>
+                                    <span class="font-size-13 text-gray value">850</span>
+                                </div>
+                                <div class="price">
+                                    <i class="font-size-13 text-gray fas fa-dollar"></i>
+                                    <span class="font-size-13 text-gray value">150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

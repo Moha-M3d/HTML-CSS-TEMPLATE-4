@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Settings </title>
+    <!-- Font Awesome Free Icons-->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- my custom css framework file -->
+    <link rel="stylesheet" href="./assets/css/my-framework.css">
+    <!-- the main css file -->
+    <link rel="stylesheet" href="./assets/css/master.css">
+    <!-- link the google font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page bg-primary">
+        <nav class="main-nav position-fixed bg-white p-20">
+            <h2 class="logo position-relative font-size-20 text-center p-bottom-20 p-inline-10 m-inline-auto m-bottom-30">
+                <span class="desktop hide-on-mobile">Dahman</span>
+                <span class="mobile hide-on-desktop">DH</span>
+            </h2>
+            <ul>
+                <li>
+                    <a class="nav-link d-flex align-center p-10 rounded-4" href="./index.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-chart-bar fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active nav-link nav-link d-flex align-center p-10 rounded-4" href="./settings.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-gear fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./profile.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-user fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./projects.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-diagram-project fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Porjects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./courses.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black fas fa-graduation-cap fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./friends.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-circle-user fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./files.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-file fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link nav-link d-flex align-center p-10 rounded-4" href="./plans.html">
+                        <i class="nav-item-icon font-size-14 m-right-10 text-black far fa-credit-card fa-fw"></i>
+                        <span class="nav-item-name font-size-14 text-black">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content settings">
+            <header class="main-content-header bg-white p-15 d-flex justify-between">
+                <div class="search-engine d-flex align-center p-10">
+                    <i class="search-icon font-size-14 fas fa-search"></i>
+                    <input class="search-field border-0" type="text" placeholder="Type A keyword">
+                </div>
+                <div class="profile d-flex align-center">
+                    <i class="notification-bell far fa-bell position-relative"></i>
+                    <img class="profile-photo rounded-circle" src="./assets/images/profile-photo.JPG" alt="profile photo">
+                </div>
+            </header>
+            <div class="content p-20">
+                <h1 class="position-relative text-black font-size-30 p-bottom-10 m-bottom-30">Settings</h1>
+                <div class="container">
+                    <div class="box site-control bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">site control</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">Control The Website If There Is Maintenance</span>
+                        <div class="row d-flex flex-wrap justify-between align-center gap-10 m-bottom-20">
+                            <div class="label">
+                                <span class="d-block capitalize text-black m-bottom-5">website control</span>
+                                <span class="text-gray font-size-13">Open/Close Website And Type The Reason</span>
+                            </div>
+                            <div class="toggle-switch-btn">
+                                <input type="checkbox" id="sbtn-1">
+                                <label for="sbtn-1">
+                                    <i class="xmark fas fa-xmark "></i>
+                                    <i class="check fas fa-check "></i>
+                                </label>
+                            </div>
+                        </div>
+                        <textarea class="w-100 p-10 bg-white border-light rounded-6" placeholder="Close Message Content"></textarea>
+                    </div>
+                    <div class="box general-info bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">General info</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">General Information About Your Account</span>
+                        <div class="row m-bottom-20">
+                            <label class="d-block text-gray font-size-14 m-bottom-10" for="fs-name">First Name</label>
+                            <input class="d-block w-100 font-size-14 p-10 rounded-6 border-light bg-white" type="text" placeholder="First Name" id="fs-name">
+                        </div>
+                        <div class="row m-bottom-20">
+                            <label class="d-block text-gray font-size-14 m-bottom-10" for="ls-name">Last Name</label>
+                            <input class="d-block w-100 font-size-14 p-10 rounded-6 border-light bg-white" type="text" placeholder="Last Name" id="ls-name">
+                        </div>
+                        <div class="row">
+                            <label class="d-block text-gray font-size-14 m-bottom-10" for="email-1">Email</label>
+                            <div class="d-flex flex-wrap align-center gap-10">
+                                <input class="flex-1 font-size-14 p-10 m-right-15 rounded-6 border-light bg-primary" type="email" placeholder="o@nn.sa" disabled id="email-1">
+                                <a class="primary-clr-1" href="#">Change</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box security-info bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">security info</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">Security Information About Your Account</span>
+                        <div class="row d-flex flex-wrap justify-between align-center gap-10 p-bottom-30 border-bottom border-color-light m-bottom-20">
+                            <div class="label">
+                                <span class="d-block capitalize text-black m-bottom-5">Two-Factor Authentication</span>
+                                <span class="text-gray font-size-13">Enable/Disable The Feature</span>
+                            </div>
+                            <button class="btn btn-primary font-size-16">Change</button>
+                        </div>
+                        <div class="row d-flex flex-wrap justify-between align-center gap-10 p-bottom-30 border-bottom border-color-light m-bottom-20">
+                            <div class="label">
+                                <span class="d-block capitalize text-black m-bottom-5">Two-Factor Authentication</span>
+                                <span class="text-gray font-size-13">Enable/Disable The Feature</span>
+                            </div>
+                            <div class="toggle-switch-btn">
+                                <input type="checkbox" checked id="sbtn-2">
+                                <label for="sbtn-2">
+                                    <i class="xmark fas fa-xmark "></i>
+                                    <i class="check fas fa-check "></i>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-wrap justify-between align-center gap-10 p-bottom-30">
+                            <div class="label">
+                                <span class="d-block capitalize text-black m-bottom-5">Two-Factor Authentication</span>
+                                <span class="text-gray font-size-13">Enable/Disable The Feature</span>
+                            </div>
+                            <span class="btn bg-gray font-size-16">Devices</span>
+                        </div>
+                    </div>
+                    <div class="box social-info bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">social info</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">Social Media Information</span>
+                        <div class="row position-relative">
+                            <input type="text" placeholder="Twitter Username">
+                            <i class="social-icon fab fa-twitter"></i>
+                        </div>
+                        <div class="row position-relative">
+                            <input type="text" placeholder="Facebook Username">
+                            <i class="social-icon fab fa-facebook-f"></i>
+                        </div>
+                        <div class="row position-relative">
+                            <input type="text" placeholder="Linkedin Username">
+                            <i class="social-icon fab fa-linkedin"></i>
+                        </div>
+                        <div class="row position-relative">
+                            <input type="text" placeholder="Youtube Username">
+                            <i class="social-icon fab fa-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="box widgets-control bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">Widgets Control</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">Show/Hide Widgets</span>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Quick Draft</span>
+                        </label>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Yearly Targets</span>
+                        </label>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Tickets Statistics</span>
+                        </label>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Latest News</span>
+                        </label>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Latest Tasks</span>
+                        </label>
+                        <label class="check-btn m-bottom-15">
+                            <input type="checkbox" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Top Search Items</span>
+                        </label>
+                    </div>
+                    <div class="box backup-manager bg-white p-20 rounded-8">
+                        <h2 class="text-black font-size-24 capitalize m-bottom-10">Backup Manager</h2>
+                        <span class="d-block text-gray font-size-16 m-bottom-20">Control Backup Time And Location</span>
+                        <label class="radio-btn m-bottom-15">
+                            <input type="radio" name="backup-type" checked>
+                            <span class="icon"></span>
+                            <span class="labeled-text">Daily</span>
+                        </label>
+                        <label class="radio-btn m-bottom-15">
+                            <input type="radio" name="backup-type">
+                            <span class="icon"></span>
+                            <span class="labeled-text">Weekly</span>
+                        </label>
+                        <label class="radio-btn m-bottom-15">
+                            <input type="radio" name="backup-type">
+                            <span class="icon"></span>
+                            <span class="labeled-text">Montly</span>
+                        </label>
+                        <div class="bottom-row p-top-20 border-top border-color-light">
+                            <div class="card">
+                                <input type="radio" name="server-type" id="megaman">
+                                <label class="" for="megaman">
+                                    <i class="d-block m-bottom-10 fas fa-server"></i>
+                                    <span class="labeled-text">Megaman</span>
+                                </label>
+                            </div>
+                            <div class="card">
+                                <input type="radio" name="server-type" id="zero">
+                                <label class="" for="zero">
+                                    <i class="d-block m-bottom-10 fas fa-server"></i>
+                                    <span class="labeled-text">Zero</span>
+                                </label>
+                            </div>
+                            <div class="card">
+                                <input type="radio" name="server-type" id="sigma">
+                                <label class="" for="sigma">
+                                    <i class="d-block m-bottom-10 fas fa-server"></i>
+                                    <span class="labeled-text">Sigma</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
